@@ -6,8 +6,6 @@
 
 ## Build with
 - HTML
-- CSS
-- JavaScript
 
 ## Blog 
 Click [here](https://dev.to/aneeqakhan/responsive-images-for-web-2n9g) for the link
