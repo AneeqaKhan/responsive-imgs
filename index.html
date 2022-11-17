@@ -1,0 +1,24 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <title>Parcel Sandbox</title>
+    <meta charset="UTF-8" />
+    <style>
+      responsive {
+        width: 100%;
+        height: auto;
+      }
+    </style>
+  </head>
+
+  <body>
+    <div id="app">
+      <h2>Responsive image with picture tag</h2>
+      <picture>
+        <source media="(min-width:650px)" srcset="./src/desktop-img.png" />
+        <source media="(min-width:465px)" srcset="./src/mobile-img.png" />
+        <img src="./src/mobile-img.png" alt="desktop" style="width: 100%;" />
+      </picture>
+    </div>
+  </body>
+</html>
